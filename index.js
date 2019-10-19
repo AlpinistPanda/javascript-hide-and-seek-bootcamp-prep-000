@@ -4,7 +4,7 @@ function getFirstSelector (selector) {
 }
 
 function nestedTarget() {
-  
+  return document.querySelector('ul.nested div div div')
 }
 
 function deepestChild() {
