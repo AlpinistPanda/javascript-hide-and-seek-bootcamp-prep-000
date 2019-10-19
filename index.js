@@ -1,2 +1,4 @@
 
-document.querySelector('div')`
+function getFirstSelector (selector) {
+  return document.querySelector(selector)
+}
